@@ -800,10 +800,6 @@
 		(color 0 0 0 0)
 		(uuid "f6c2aed6-c79f-4e09-9c2e-ec5568fd372b")
 	)
-	(no_connect
-		(at 175.26 72.39)
-		(uuid "3ac6caef-6eb7-406b-829f-2fcce96c71c3")
-	)
 	(wire
 		(pts
 			(xy 198.12 63.5) (xy 198.12 88.9)

@@ -27,4 +27,4 @@ La idea es entender y crear un teclado, y para ello los pasos a seguir van a ser
 
 Esquema electrónico:
 
-![esquema electrónico](img/schematic.png)
+![esquema electrónico](img/myck_pcb.svg)

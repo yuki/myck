@@ -174,6 +174,244 @@
 				)
 			)
 		)
+		(symbol "PCM_marbastlib-mx:MX_SK6812MINI-E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.175 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MX_SK6812MINI-E"
+				(at 10.16 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "reverse mount led revmount rgb"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "MX_SK6812MINI-E_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MX_SK6812MINI-E_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push_45deg"
 			(pin_numbers hide)
 			(pin_names
@@ -800,6 +1038,10 @@
 		(color 0 0 0 0)
 		(uuid "f6c2aed6-c79f-4e09-9c2e-ec5568fd372b")
 	)
+	(no_connect
+		(at 344.17 110.49)
+		(uuid "45333961-6567-4c64-b71a-5a01f087769a")
+	)
 	(wire
 		(pts
 			(xy 198.12 63.5) (xy 198.12 88.9)
@@ -819,6 +1061,16 @@
 			(type default)
 		)
 		(uuid "0624bb88-b9a0-4f2a-a573-981257dc584c")
+	)
+	(wire
+		(pts
+			(xy 344.17 33.02) (xy 344.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070f7217-7828-491a-b597-df75a5c7a2e0")
 	)
 	(wire
 		(pts
@@ -849,6 +1101,16 @@
 			(type default)
 		)
 		(uuid "0f12451d-cd3e-4314-931b-b1a471280ad2")
+	)
+	(wire
+		(pts
+			(xy 344.17 92.71) (xy 344.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4c34fa-edbd-47cc-acf6-0e1afd004e28")
 	)
 	(wire
 		(pts
@@ -949,6 +1211,16 @@
 			(type default)
 		)
 		(uuid "2722825a-dce5-4907-9701-48155ff0deae")
+	)
+	(wire
+		(pts
+			(xy 344.17 53.34) (xy 344.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297f3b8e-8daf-46e9-acbd-df9891656681")
 	)
 	(wire
 		(pts
@@ -1642,6 +1914,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 72.39) (xy 344.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f485ff25-c8ac-4988-8d09-31e8cd1af6b9")
+	)
+	(wire
+		(pts
 			(xy 203.2 76.2) (xy 215.9 76.2)
 		)
 		(stroke
@@ -2006,6 +2288,28 @@
 			)
 		)
 	)
+	(global_label "RGB"
+		(shape input)
+		(at 344.17 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc9c0483-1abc-4733-ba4c-de1783afb8cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.17 26.2248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col0"
 		(shape input)
 		(at 58.42 25.4 90)
@@ -2101,7 +2405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 72.39 0)
 			(effects
 				(font
@@ -2189,7 +2493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 97.79 0)
 			(effects
 				(font
@@ -2259,7 +2563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a01f1d-593d-45c2-a9a2-32f570e4551e")
-		(property "Reference" "Alt-r"
+		(property "Reference" "Alt-r1"
 			(at 187.96 111.76 0)
 			(effects
 				(font
@@ -2276,7 +2580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -2312,7 +2616,81 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Alt-r")
+					(reference "Alt-r1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 344.17 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "031120b3-9bd2-4a3d-a203-483882fb0ca2")
+		(property "Reference" "LED2"
+			(at 359.41 58.4514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 359.41 60.9914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+			(at 344.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 344.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "be416135-738f-4ab5-ba2a-4fb6ea5be4e5")
+		)
+		(pin "1"
+			(uuid "b4c9ca05-a5fd-4eb5-9db5-98e60b44f342")
+		)
+		(pin "2"
+			(uuid "9d090986-e0f9-4a0c-858c-6bd9d69bade9")
+		)
+		(pin "4"
+			(uuid "cb969b7c-04d3-44a7-8da9-c857bad81111")
+		)
+		(instances
+			(project "myck_pcb"
+				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -2328,7 +2706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "037ad068-a305-42ec-b469-35034af8501a")
-		(property "Reference" "G"
+		(property "Reference" "G1"
 			(at 124.46 60.96 0)
 			(effects
 				(font
@@ -2345,7 +2723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 124.46 66.04 0)
 			(effects
 				(font
@@ -2381,7 +2759,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "G")
+					(reference "G1")
 					(unit 1)
 				)
 			)
@@ -2397,7 +2775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "070eeef5-e3ec-42d9-9fdb-b78ed66834c1")
-		(property "Reference" "D"
+		(property "Reference" "D47"
 			(at 99.06 60.96 0)
 			(effects
 				(font
@@ -2414,7 +2792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -2450,7 +2828,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "D")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -2484,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -2554,7 +2932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d754b9f-02dd-42b1-8568-72996631c289")
-		(property "Reference" "Space-r"
+		(property "Reference" "Space-r1"
 			(at 175.26 111.76 0)
 			(effects
 				(font
@@ -2571,7 +2949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -2607,7 +2985,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Space-r")
+					(reference "Space-r1")
 					(unit 1)
 				)
 			)
@@ -2623,7 +3001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "111623e2-558b-47f5-a1ad-005bfdb4c8d7")
-		(property "Reference" "BackSpace"
+		(property "Reference" "BackSpace1"
 			(at 238.76 35.56 0)
 			(effects
 				(font
@@ -2640,7 +3018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -2676,7 +3054,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "BackSpace")
+					(reference "BackSpace1")
 					(unit 1)
 				)
 			)
@@ -2692,7 +3070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1300d823-a5a1-42d6-901b-95eb7bac2265")
-		(property "Reference" "Shift-l"
+		(property "Reference" "Shift-l1"
 			(at 60.96 86.36 0)
 			(effects
 				(font
@@ -2709,7 +3087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -2745,7 +3123,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Shift-l")
+					(reference "Shift-l1")
 					(unit 1)
 				)
 			)
@@ -2780,7 +3158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 123.19 0)
 			(effects
 				(font
@@ -2869,7 +3247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 72.39 0)
 			(effects
 				(font
@@ -2939,7 +3317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1771e060-c89e-4133-94ed-44d5f99b8b17")
-		(property "Reference" "M"
+		(property "Reference" "M3"
 			(at 187.96 86.36 0)
 			(effects
 				(font
@@ -2956,7 +3334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -2992,7 +3370,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "M")
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -3027,7 +3405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 46.99 0)
 			(effects
 				(font
@@ -3115,7 +3493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -3185,7 +3563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2440a9ec-d0ec-475e-923c-182c8bd0599c")
-		(property "Reference" "R"
+		(property "Reference" "R1"
 			(at 111.76 35.56 0)
 			(effects
 				(font
@@ -3202,7 +3580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 111.76 40.64 0)
 			(effects
 				(font
@@ -3238,7 +3616,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "R")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3254,7 +3632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26352359-cf2f-478b-8139-d2ef952cf9d7")
-		(property "Reference" "Z"
+		(property "Reference" "Z1"
 			(at 73.66 86.36 0)
 			(effects
 				(font
@@ -3271,7 +3649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -3307,7 +3685,81 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Z")
+					(reference "Z1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 344.17 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a719f4a-aa18-476e-a2d0-2d385ad038a7")
+		(property "Reference" "LED1"
+			(at 359.41 39.4014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 359.41 41.9414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+			(at 344.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 344.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2bb380ee-43b1-4d2d-ba63-6a02351adb66")
+		)
+		(pin "1"
+			(uuid "47ebce44-8260-449b-b1e1-3e1edba9489c")
+		)
+		(pin "2"
+			(uuid "0a817ea4-cbb1-42b8-8fe2-1c55cdd5fbed")
+		)
+		(pin "4"
+			(uuid "9e6d34c3-710f-476b-b5c9-d30fb042b54e")
+		)
+		(instances
+			(project ""
+				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -3342,7 +3794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 46.99 0)
 			(effects
 				(font
@@ -3412,7 +3864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fea1d81-98a0-414a-b4c5-8dd0b00a36a2")
-		(property "Reference" "N"
+		(property "Reference" "N1"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -3429,7 +3881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 175.26 91.44 0)
 			(effects
 				(font
@@ -3465,7 +3917,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "N")
+					(reference "N1")
 					(unit 1)
 				)
 			)
@@ -3500,7 +3952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -3570,7 +4022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c29f7f-9e9c-4e7a-8a78-495d93dd29c5")
-		(property "Reference" "Shift-r"
+		(property "Reference" "Shift-r1"
 			(at 238.76 86.36 0)
 			(effects
 				(font
@@ -3587,7 +4039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 238.76 91.44 0)
 			(effects
 				(font
@@ -3623,7 +4075,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Shift-r")
+					(reference "Shift-r1")
 					(unit 1)
 				)
 			)
@@ -3658,7 +4110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 72.39 0)
 			(effects
 				(font
@@ -3747,7 +4199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 46.99 0)
 			(effects
 				(font
@@ -3817,7 +4269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a4d797d-d118-4b2d-989f-2896431efec9")
-		(property "Reference" "Alt-l"
+		(property "Reference" "Alt-l1"
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -3834,7 +4286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 111.76 116.84 0)
 			(effects
 				(font
@@ -3870,7 +4322,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Alt-l")
+					(reference "Alt-l1")
 					(unit 1)
 				)
 			)
@@ -3886,7 +4338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "400b7bdb-2295-4aa0-914f-9f885024833f")
-		(property "Reference" "Q"
+		(property "Reference" "Q1"
 			(at 73.66 35.56 0)
 			(effects
 				(font
@@ -3903,7 +4355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -3939,7 +4391,7 @@
 		(instances
 			(project ""
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Q")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3955,7 +4407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "429e5ac4-d0f7-46cb-a1a4-b2a3b926ae9b")
-		(property "Reference" "E"
+		(property "Reference" "E1"
 			(at 99.06 35.56 0)
 			(effects
 				(font
@@ -3972,7 +4424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 99.06 40.64 0)
 			(effects
 				(font
@@ -4008,7 +4460,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "E")
+					(reference "E1")
 					(unit 1)
 				)
 			)
@@ -4043,7 +4495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 46.99 0)
 			(effects
 				(font
@@ -4132,7 +4584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 97.79 0)
 			(effects
 				(font
@@ -4221,7 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -4291,7 +4743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ff8d2c-47da-46ba-a0c4-44bc65982797")
-		(property "Reference" "A"
+		(property "Reference" "A1"
 			(at 73.66 60.96 0)
 			(effects
 				(font
@@ -4308,7 +4760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -4344,7 +4796,81 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "A")
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 344.17 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54fa80b1-9b2c-4643-82b9-bde38bfb2042")
+		(property "Reference" "LED3"
+			(at 359.41 78.7714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 359.41 81.3114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+			(at 344.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 344.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fd6aa954-ce8d-42d7-b28e-a03cf083f4a8")
+		)
+		(pin "1"
+			(uuid "4f7f7ae3-56ed-42bf-a447-489f0002586d")
+		)
+		(pin "2"
+			(uuid "d49c9f08-09a1-4336-b214-507657359682")
+		)
+		(pin "4"
+			(uuid "6559f154-2bc7-4778-b541-8b657e10147a")
+		)
+		(instances
+			(project "myck_pcb"
+				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -4360,7 +4886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5739058d-0857-4d32-bad3-6c593a40c5c7")
-		(property "Reference" "X"
+		(property "Reference" "X1"
 			(at 86.36 86.36 0)
 			(effects
 				(font
@@ -4377,7 +4903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -4413,7 +4939,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "X")
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -4448,7 +4974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -4518,7 +5044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc013f7-bc6b-420c-a4dc-cc0e34a61af7")
-		(property "Reference" "J"
+		(property "Reference" "J1"
 			(at 187.96 60.96 0)
 			(effects
 				(font
@@ -4535,7 +5061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -4571,7 +5097,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "J")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4606,7 +5132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -4676,7 +5202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "657751b8-400f-4e77-b988-3b5615e99574")
-		(property "Reference" "Enter"
+		(property "Reference" "Enter1"
 			(at 238.76 60.96 0)
 			(effects
 				(font
@@ -4693,7 +5219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -4729,7 +5255,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Enter")
+					(reference "Enter1")
 					(unit 1)
 				)
 			)
@@ -4764,7 +5290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 203.2 72.39 0)
 			(effects
 				(font
@@ -4851,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 86.36 116.84 0)
 			(effects
 				(font
@@ -4903,7 +5429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "669d4afa-8436-4cb2-a1b0-378d9abb59d5")
-		(property "Reference" "S"
+		(property "Reference" "S1"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -4920,7 +5446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 86.36 66.04 0)
 			(effects
 				(font
@@ -4956,7 +5482,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "S")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -4990,7 +5516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 123.19 0)
 			(effects
 				(font
@@ -5060,7 +5586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b954b4-e598-4475-ab16-9d61fc76ba6b")
-		(property "Reference" "W"
+		(property "Reference" "W1"
 			(at 86.36 35.56 0)
 			(effects
 				(font
@@ -5077,7 +5603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 86.36 40.64 0)
 			(effects
 				(font
@@ -5113,7 +5639,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "W")
+					(reference "W1")
 					(unit 1)
 				)
 			)
@@ -5148,7 +5674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -5236,7 +5762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 123.19 0)
 			(effects
 				(font
@@ -5323,7 +5849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 213.36 116.84 0)
 			(effects
 				(font
@@ -5375,7 +5901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81ce5f8b-3b57-4bf9-bd8f-8b795cecae97")
-		(property "Reference" "Tab"
+		(property "Reference" "Tab1"
 			(at 60.96 35.56 0)
 			(effects
 				(font
@@ -5392,7 +5918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 60.96 40.64 0)
 			(effects
 				(font
@@ -5428,7 +5954,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Tab")
+					(reference "Tab1")
 					(unit 1)
 				)
 			)
@@ -5444,7 +5970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f363e7-2c2a-44b9-afd2-b397d4a6672f")
-		(property "Reference" "Ctrl-l"
+		(property "Reference" "Ctrl-l1"
 			(at 73.66 111.76 0)
 			(effects
 				(font
@@ -5461,7 +5987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 73.66 116.84 0)
 			(effects
 				(font
@@ -5497,7 +6023,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Ctrl-l")
+					(reference "Ctrl-l1")
 					(unit 1)
 				)
 			)
@@ -5532,7 +6058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 46.99 0)
 			(effects
 				(font
@@ -5602,7 +6128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bde5b8c-16d4-4b74-970b-ce602d1eff19")
-		(property "Reference" "B"
+		(property "Reference" "B1"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -5619,7 +6145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 124.46 91.44 0)
 			(effects
 				(font
@@ -5655,7 +6181,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "B")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -5690,7 +6216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 203.2 46.99 0)
 			(effects
 				(font
@@ -5778,7 +6304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 123.19 0)
 			(effects
 				(font
@@ -5867,7 +6393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 72.39 0)
 			(effects
 				(font
@@ -5955,7 +6481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 97.79 0)
 			(effects
 				(font
@@ -6025,7 +6551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "987e59cf-7000-4b76-831b-569c2c7bb92a")
-		(property "Reference" "Ctrl-r"
+		(property "Reference" "Ctrl-r1"
 			(at 226.06 111.76 0)
 			(effects
 				(font
@@ -6042,7 +6568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 226.06 116.84 0)
 			(effects
 				(font
@@ -6078,7 +6604,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Ctrl-r")
+					(reference "Ctrl-r1")
 					(unit 1)
 				)
 			)
@@ -6113,7 +6639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 46.99 0)
 			(effects
 				(font
@@ -6202,7 +6728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 72.39 0)
 			(effects
 				(font
@@ -6272,7 +6798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c6fcebd-a2cf-4b7e-8056-a82efe1aa54f")
-		(property "Reference" "L"
+		(property "Reference" "L1"
 			(at 213.36 60.96 0)
 			(effects
 				(font
@@ -6289,7 +6815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 213.36 66.04 0)
 			(effects
 				(font
@@ -6325,7 +6851,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "L")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -6360,7 +6886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 46.99 0)
 			(effects
 				(font
@@ -6430,7 +6956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f7410fb-b9b4-4dd6-9372-46b09f3bce80")
-		(property "Reference" "-"
+		(property "Reference" "-1"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -6447,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -6483,7 +7009,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "-")
+					(reference "-1")
 					(unit 1)
 				)
 			)
@@ -6499,7 +7025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fe70011-49f7-4d33-bb6a-27336422cb9c")
-		(property "Reference" "H"
+		(property "Reference" "H1"
 			(at 175.26 60.96 0)
 			(effects
 				(font
@@ -6516,7 +7042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -6552,7 +7078,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "H")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6568,7 +7094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8cf72cb-df99-41c0-9d9c-5862bd1192b9")
-		(property "Reference" "Space-l"
+		(property "Reference" "Space-l1"
 			(at 124.46 111.76 0)
 			(effects
 				(font
@@ -6585,7 +7111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 124.46 116.84 0)
 			(effects
 				(font
@@ -6621,7 +7147,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Space-l")
+					(reference "Space-l1")
 					(unit 1)
 				)
 			)
@@ -6637,7 +7163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a919c2c1-a128-47c8-baf9-3a0847fc7034")
-		(property "Reference" "CapsLock"
+		(property "Reference" "CapsLock1"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -6654,7 +7180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 60.96 66.04 0)
 			(effects
 				(font
@@ -6690,7 +7216,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "CapsLock")
+					(reference "CapsLock1")
 					(unit 1)
 				)
 			)
@@ -6724,7 +7250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 123.19 0)
 			(effects
 				(font
@@ -6813,7 +7339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 123.19 0)
 			(effects
 				(font
@@ -6883,7 +7409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abdc53d6-ee6c-451c-a00e-aa1e8f4ac8d6")
-		(property "Reference" "Tilde"
+		(property "Reference" "Tilde1"
 			(at 226.06 60.96 0)
 			(effects
 				(font
@@ -6900,7 +7426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -6936,7 +7462,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Tilde")
+					(reference "Tilde1")
 					(unit 1)
 				)
 			)
@@ -6952,7 +7478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac4c3c29-4f74-4d78-bd88-177f94c6b53d")
-		(property "Reference" "Comma"
+		(property "Reference" "Comma1"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -6969,7 +7495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 200.66 91.44 0)
 			(effects
 				(font
@@ -7005,7 +7531,81 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Comma")
+					(reference "Comma1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 344.17 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b00b17e7-6dda-4307-9bad-afcda2e489ce")
+		(property "Reference" "LED4"
+			(at 359.41 96.5514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 359.41 99.0914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+			(at 344.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 344.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b12c9ea5-c68b-462c-9a9c-755f1a729732")
+		)
+		(pin "1"
+			(uuid "fbe9ae62-9e5e-44a9-bf8f-58aa9ec553c2")
+		)
+		(pin "2"
+			(uuid "4aa157a2-1910-47ec-aef5-75b0f7fd4803")
+		)
+		(pin "4"
+			(uuid "10825865-5ce7-4b68-af59-6dd9fa874a1a")
+		)
+		(instances
+			(project "myck_pcb"
+				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -7040,7 +7640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 72.39 0)
 			(effects
 				(font
@@ -7110,7 +7710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a45a1e-e257-4718-a54b-96f321f69d50")
-		(property "Reference" "C"
+		(property "Reference" "C1"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -7127,7 +7727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 99.06 91.44 0)
 			(effects
 				(font
@@ -7163,7 +7763,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "C")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7179,7 +7779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b495b888-b723-4745-983f-c10d52f4bb0f")
-		(property "Reference" "O"
+		(property "Reference" "O1"
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -7196,7 +7796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 213.36 40.64 0)
 			(effects
 				(font
@@ -7232,7 +7832,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "O")
+					(reference "O1")
 					(unit 1)
 				)
 			)
@@ -7266,7 +7866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 203.2 97.79 0)
 			(effects
 				(font
@@ -7336,7 +7936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baecbde2-5bd7-4636-af30-c043dccbe05c")
-		(property "Reference" "Y"
+		(property "Reference" "Y1"
 			(at 175.26 35.56 0)
 			(effects
 				(font
@@ -7353,7 +7953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 175.26 40.64 0)
 			(effects
 				(font
@@ -7389,7 +7989,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Y")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -7405,7 +8005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbce8999-ea68-49ce-bd80-305a1d21550a")
-		(property "Reference" "K"
+		(property "Reference" "K1"
 			(at 200.66 60.96 0)
 			(effects
 				(font
@@ -7422,7 +8022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 200.66 66.04 0)
 			(effects
 				(font
@@ -7458,7 +8058,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "K")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -7492,7 +8092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 123.19 0)
 			(effects
 				(font
@@ -7580,7 +8180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 97.79 0)
 			(effects
 				(font
@@ -7669,7 +8269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -7758,7 +8358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 72.39 0)
 			(effects
 				(font
@@ -7828,7 +8428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf6136ae-71c9-492b-a41f-5e133f56454e")
-		(property "Reference" "U"
+		(property "Reference" "U1"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -7845,7 +8445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 187.96 40.64 0)
 			(effects
 				(font
@@ -7881,7 +8481,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "U")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7897,7 +8497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf72105b-b40a-4868-8fe7-a2f98eb98b51")
-		(property "Reference" "Dot"
+		(property "Reference" "Dot1"
 			(at 213.36 86.36 0)
 			(effects
 				(font
@@ -7914,7 +8514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 213.36 91.44 0)
 			(effects
 				(font
@@ -7950,7 +8550,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Dot")
+					(reference "Dot1")
 					(unit 1)
 				)
 			)
@@ -7985,7 +8585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 72.39 0)
 			(effects
 				(font
@@ -8073,7 +8673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 97.79 0)
 			(effects
 				(font
@@ -8161,7 +8761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 203.2 123.19 0)
 			(effects
 				(font
@@ -8250,7 +8850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 97.79 0)
 			(effects
 				(font
@@ -8320,7 +8920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dec139d1-c47a-458d-8805-dfc2c6ed7df7")
-		(property "Reference" "V"
+		(property "Reference" "V1"
 			(at 111.76 86.36 0)
 			(effects
 				(font
@@ -8337,7 +8937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -8373,7 +8973,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "V")
+					(reference "V1")
 					(unit 1)
 				)
 			)
@@ -8389,7 +8989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfa7da45-4aec-42e8-8428-af67245e4f6b")
-		(property "Reference" "P"
+		(property "Reference" "P1"
 			(at 226.06 35.56 0)
 			(effects
 				(font
@@ -8406,7 +9006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 226.06 40.64 0)
 			(effects
 				(font
@@ -8442,7 +9042,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "P")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -8458,7 +9058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e140780c-72f1-4e55-a336-63ac3670078f")
-		(property "Reference" "Super-r"
+		(property "Reference" "Super-r1"
 			(at 200.66 111.76 0)
 			(effects
 				(font
@@ -8475,7 +9075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 200.66 116.84 0)
 			(effects
 				(font
@@ -8511,7 +9111,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Super-r")
+					(reference "Super-r1")
 					(unit 1)
 				)
 			)
@@ -8527,7 +9127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e29afa59-b93a-4ffd-b323-a3518e4d389d")
-		(property "Reference" "F"
+		(property "Reference" "F1"
 			(at 111.76 60.96 0)
 			(effects
 				(font
@@ -8544,7 +9144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 111.76 66.04 0)
 			(effects
 				(font
@@ -8580,7 +9180,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "F")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -8615,7 +9215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 46.99 0)
 			(effects
 				(font
@@ -8704,7 +9304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 72.39 0)
 			(effects
 				(font
@@ -8774,7 +9374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f429af06-5b36-4969-8095-55bb3a5d7415")
-		(property "Reference" "I"
+		(property "Reference" "I1"
 			(at 200.66 35.56 0)
 			(effects
 				(font
@@ -8791,7 +9391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 200.66 40.64 0)
 			(effects
 				(font
@@ -8827,7 +9427,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "I")
+					(reference "I1")
 					(unit 1)
 				)
 			)
@@ -8861,7 +9461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 123.19 0)
 			(effects
 				(font
@@ -8949,7 +9549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -9019,7 +9619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7d714d3-e6b4-4367-826c-756d9202297d")
-		(property "Reference" "T"
+		(property "Reference" "T1"
 			(at 124.46 35.56 0)
 			(effects
 				(font
@@ -9036,7 +9636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 124.46 40.64 0)
 			(effects
 				(font
@@ -9072,7 +9672,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "T")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -9107,7 +9707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 46.99 0)
 			(effects
 				(font
@@ -9177,7 +9777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff45ddd9-ab9a-432f-b34e-5148d82d83db")
-		(property "Reference" "Super-l"
+		(property "Reference" "Super-l1"
 			(at 99.06 111.76 0)
 			(effects
 				(font
@@ -9194,7 +9794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
 			(at 99.06 116.84 0)
 			(effects
 				(font
@@ -9230,7 +9830,7 @@
 		(instances
 			(project "myck_pcb"
 				(path "/6ada62c9-ef28-4845-b4ed-7701c6ea4e03"
-					(reference "Super-l")
+					(reference "Super-l1")
 					(unit 1)
 				)
 			)
@@ -9264,7 +9864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 97.79 0)
 			(effects
 				(font

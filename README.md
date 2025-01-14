@@ -25,6 +25,12 @@ La idea es entender y crear un teclado, y para ello los pasos a seguir van a ser
 
 ## Imágenes
 
-Esquema electrónico:
+Esquema electrónico completo de cómo sería un teclado:
 
 ![esquema electrónico](img/myck_pcb.svg)
+
+Esquema de la placa de pruebas:
+![esquema placa](img/myck_pcb.png)
+
+Sólo las pistas para la placa de pruebas:
+![esquema placa](img/myck_pcb-brd.svg)

@@ -148,7 +148,7 @@
 	(pad "1" thru_hole rect
 		(at -1.7875 0 180)
 		(size 1.425 1.3)
-		(drill 0.2)
+		(drill 0.3)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "59c389cb-612c-40e8-a372-be0922ce1bf1")
@@ -156,7 +156,7 @@
 	(pad "2" thru_hole rect
 		(at 1.7875 0 180)
 		(size 1.425 1.3)
-		(drill 0.2)
+		(drill 0.3)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ea113148-a4ea-40ca-8899-15b5af261bc5")
